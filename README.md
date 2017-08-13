@@ -27,7 +27,7 @@ bundle install
 ### Premise
 
 Mojix-server is running.
-See [mojix-server](https://github.com/mojix-server) repo.
+See [mojix-server](https://github.com/xmisao/mojix-server) repo.
 
 ```sh
 docker run -it --rm -p 9661:9661 xmisao/mojix
@@ -66,7 +66,7 @@ Valid `mode` arugments.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/xmisao/mojix.
+Bug reports and pull requests are welcome on [GitHub](https://github.com/xmisao/mojix-ruby-client).
 
 ## License
 
