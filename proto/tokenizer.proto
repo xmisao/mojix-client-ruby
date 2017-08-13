@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "com.xmisao.mojix.tokenizer";
+option java_outer_classname = "IpadicTokenizer";
+option objc_class_prefix = "IT";
+
+package mojix;
+
+service Tokenizer {
+  rpc tokenizeSimply (SimpleRequest) returns (SimpleResponse) {}
+}
+
+message SimpleRequest {
+  string text = 1;
+  enum Mode {
+    NORMAL = 0;
+    SEARCH = 1;
+    EXTENDED = 2;
+  }
+  Mode mode = 2;
+}
+
+message SimpleResponse {
+  repeated string tokens = 1;
+}
