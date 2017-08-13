@@ -66,7 +66,7 @@ Valid `mode` arugments.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on [GitHub](https://github.com/xmisao/mojix-ruby-client).
+Bug reports and pull requests are welcome on [GitHub](https://github.com/xmisao/mojix-client-ruby).
 
 ## License
 
